@@ -1,0 +1,21 @@
+{
+    
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql://root:@localhost/theexplorerapk",
+        "prod_uri":"mysql://root:@localhost/theexplorerapk",
+        "fb_url":"https://facebook.com/explorerapk",
+        "tw_url":"https://twitter.com/explorerapk",
+        "gh_url":"https://GitHub.com/explorerapk",
+        "blog_name":"TheApkSpace",
+        "sub_title":"Here you will Get New updated Apps and Injectors",
+        "gmail-user":"akashhussain5555@gmail.com",
+        "gmail_password":"ibyxcrobjhlocvwm",
+        "about_text":"Hello this is our about text",
+        "number_of_posts": 4,
+        "admin_user":"akash",
+        "admin_password":"pass111",
+        "upload_loaction":"C:\\Users\\Rana Aksash\\Desktop\\flask"
+    }
+}

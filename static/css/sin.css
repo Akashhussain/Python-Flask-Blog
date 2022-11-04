@@ -1,0 +1,71 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image: url(2.jpg);
+}
+
+
+#login .page form h1{
+	text-align: center;
+	color: #fff;
+	font-size: 70px;
+	font-family: concourse;
+}
+.page{
+	margin-top: 70px;
+}
+.box1 input{
+	text-align: center;
+	width: 40%;
+	height: 40px;
+	border: transparent;
+	margin-top: 40px;
+	border-radius: 60px;
+
+}
+#login {
+	background: transparent;
+	width: 40%;
+	margin-top: 50px;
+	height: 550px;
+	border: transparent;
+	border-radius: 30px;
+	border: 2px solid white;
+}
+.box2 label{
+	font-size: 20px;
+	padding: 0px;
+}
+.box2{
+	margin-top: 30px;
+	margin-left: 140px;
+}
+.box2 input{
+	width: 20px;
+	height: 20px;
+	background: red;
+	}
+	.box3{
+		margin-top: 40px;
+	}
+	.box3 button{
+		width: 100px;
+		height: 40px;
+	}
+	.box4{
+	margin-top: 30px;
+	margin-left: 180px;
+}
+
+
+
+.button button{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: black;
+	border: 2px solid blue;
+	border-radius: 100px;
+}

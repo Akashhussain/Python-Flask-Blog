@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admin pannel</title>
+	<link rel="stylesheet" href="sin.css">
+	<!-- <link rel="stylesheet" type="text/css" href="env/static/css/sin.css"> -->
+</head>
+<body>
+	<link href="{{url_for('static', filename='css/sin.css')}}" rel="stylesheet">
+	<form class="login-form" action="/dashboard" method="post">
+		<center>
+			<section id="login">
+				<div class="page">
+					<form>
+						<h1>Admin Login</h1>
+						<center>
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-12 col-xs-8">
+										<div class="box1">
+											<input  type="text" name="uname" placeholder=  " User Name" required >
+										</div>	
+									</div>
+									<div class="col-md-12  col-xs-8">
+										<div class="box1">
+											<input type="password" name="pass" placeholder="Password" required>
+										</div>	
+									</div>
+									<div class="col-md-12 col-xs-8">
+										<div class="box3">
+											<div class="button">
+												<button class="btn btn-danger">Login</button>
+											</div>
+										</div>	
+									</div>	
+									</div>
+								</div>
+							</div></br></br></br></br></br></br>
+							<p class="mt-5 mb-3 text-muted">&copy; {{params['blog_name']}} 2022–2023</p>
+						</center>
+					</form>
+				</div>
+			</section>
+		</center>
+	</form>
+</body>
+</html>
